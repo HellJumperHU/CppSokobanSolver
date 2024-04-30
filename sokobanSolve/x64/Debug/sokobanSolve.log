@@ -1,0 +1,21 @@
+﻿  crate.cpp
+  freeSideQuality.cpp
+  mapInputHandler.cpp
+E:\repositories\sokobanSolve\sokobanSolve\mapInputHandler.cpp(175,36): warning C4552: '!=': result of expression not used
+E:\repositories\sokobanSolve\sokobanSolve\mapInputHandler.cpp(176,42): warning C4552: '!=': result of expression not used
+E:\repositories\sokobanSolve\sokobanSolve\mapInputHandler.cpp(183,42): warning C4552: '!=': result of expression not used
+  path.cpp
+E:\repositories\sokobanSolve\sokobanSolve\path.cpp(99,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\repositories\sokobanSolve\sokobanSolve\path.cpp(100,17): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+E:\repositories\sokobanSolve\sokobanSolve\path.cpp(106,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  position.cpp
+E:\repositories\sokobanSolve\sokobanSolve\position.cpp(11,11): warning C4101: 'tmpPos': unreferenced local variable
+E:\repositories\sokobanSolve\sokobanSolve\position.cpp(26,11): warning C4101: 'tmpPos': unreferenced local variable
+  sokobanSolve.cpp
+  sokoMap.cpp
+  solve.cpp
+E:\repositories\sokobanSolve\sokobanSolve\solve.cpp(74,16): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  state.cpp
+E:\repositories\sokobanSolve\sokobanSolve\state.cpp(21,35): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  Generating Code...
+  sokobanSolve.vcxproj -> E:\repositories\sokobanSolve\x64\Debug\sokobanSolve.exe

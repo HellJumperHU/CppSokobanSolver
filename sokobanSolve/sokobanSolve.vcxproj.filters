@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\MapRead">
+      <UniqueIdentifier>{78cd6bcc-26d0-4268-8f29-145d0008594d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{2633d492-7c31-4731-a089-bfcf54b28f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SokoMapStore">
+      <UniqueIdentifier>{d816de79-5332-4b35-825c-3f09ddd9dd98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapRead">
+      <UniqueIdentifier>{0956c8f6-5ac5-4087-b947-f1e6687ad9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{fc57230a-abdd-4557-93c1-c7bfe6fc857d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SokoMapStore">
+      <UniqueIdentifier>{09091e2d-5b37-4d55-94ca-72de4dabc13b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sokobanSolve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crate.cpp">
+      <Filter>Source Files\SokoMapStore</Filter>
+    </ClCompile>
+    <ClCompile Include="freeSideQuality.cpp">
+      <Filter>Source Files\SokoMapStore</Filter>
+    </ClCompile>
+    <ClCompile Include="mapInputHandler.cpp">
+      <Filter>Source Files\MapRead</Filter>
+    </ClCompile>
+    <ClCompile Include="path.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="position.cpp">
+      <Filter>Source Files\SokoMapStore</Filter>
+    </ClCompile>
+    <ClCompile Include="state.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="solve.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="sokoMap.cpp">
+      <Filter>Source Files\SokoMapStore</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="crate.h">
+      <Filter>Header Files\SokoMapStore</Filter>
+    </ClInclude>
+    <ClInclude Include="freeSideQuality.h">
+      <Filter>Header Files\SokoMapStore</Filter>
+    </ClInclude>
+    <ClInclude Include="mapInputHandler.h">
+      <Filter>Header Files\MapRead</Filter>
+    </ClInclude>
+    <ClInclude Include="position.h">
+      <Filter>Header Files\SokoMapStore</Filter>
+    </ClInclude>
+    <ClInclude Include="sokoMap.h">
+      <Filter>Header Files\SokoMapStore</Filter>
+    </ClInclude>
+    <ClInclude Include="state.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="path.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="solve.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
