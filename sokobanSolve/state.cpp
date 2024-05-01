@@ -27,7 +27,24 @@ void State::SetFirstState(SokoMap sokoMap) {
 				this->playerInitial.SetPos(row, column);
 				continue;
 			}
-
+			else if (sokoMap.sokobanMap[row][column] == '+') {
+				this->playerInitial.SetPos(row, column);
+				Position tmpTarget;
+				tmpTarget.SetPos(row, column);
+				sokoMap.targetPosition.push_back(tmpTarget);
+				continue;
+			}
+			else if (sokoMap.sokobanMap[row][column] == '*') {
+				Crate tmpCrate;
+				Position tmpPos;
+				tmpPos.SetPos(row, column);
+				sokoMap.targetPosition.push_back(tmpPos);
+				tmpCrate.cratePosition = tmpPos;
+				tmpCrate.id = this->crate.size();
+				tmpCrate.GetPushableSides(sokoMap);
+				this->crate.push_back(tmpCrate);
+				continue;
+			}
 		}
 	}
 };

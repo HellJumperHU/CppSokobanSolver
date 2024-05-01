@@ -59,6 +59,8 @@ bool IsMapElement(const std::string actualrowofmap, unsigned int rowindex, unsig
         case '.':numberofdestination++; break;
         case '$':numberofcrates++; break;
         case '@':numberofplayercharacter++; break;
+        case '+':numberofplayercharacter++; numberofdestination++; break;
+        case '*':numberofcrates++; numberofdestination++; break;
         case ' ': break;
         default:    std::cout << "Error at the "
             << rowindex + 1 << ". row's "

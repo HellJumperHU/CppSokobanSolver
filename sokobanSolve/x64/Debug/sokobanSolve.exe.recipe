@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>E:\repositories\sokobanSolve\x64\Debug\sokobanSolve.exe</FullPath>
+      <FullPath>E:\GitHubRepo\CppSokobanSolver\CppSokobanSolver\x64\Debug\sokobanSolve.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
