@@ -6,7 +6,7 @@ void SokoMap::GatherTargetPositions() {
 	{
 		for (unsigned short j = 0; j < this->column; j++)
 		{
-			if (this->sokobanMap[i][j] == '.')
+			if (this->sokobanMap[i][j] == '.' || this->sokobanMap[i][j] == '+' || this->sokobanMap[i][j] == '*' )
 			{
 				Position tmpPos;
 				tmpPos.SetPos(i, j);
